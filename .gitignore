@@ -1,0 +1,31 @@
+# Python bytecode and cache directories
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+secret_config.json
+
+# Generated files
+build/
+dist/
+
+# ZIP archives and directories ending in .zip
+*.zip
+*.ZIP
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
